@@ -16,6 +16,7 @@ print("jai balayya")
         (6) INCREMENTAL OPERATORS
 """
 """
+
 # (1) ARTHIMETIC OPERATORS( +, -, *, /, //, % )
 x = 50
 y = 20
@@ -52,10 +53,11 @@ print(x/y)
 
 X = 50
 Y = 20
-"""
-"""
-print(x//y)
 
+print(x//y)
+"""
+
+"""
 #$
 
 x = 100
@@ -63,8 +65,9 @@ y = 50
 
 print(x%y)
 """
+
 """
-# (2)EQUAL OPERATORS(== ,!=)
+#(2)EQUAL OPERATORS(== ,!=)
 
 x = 50
 y = 100
@@ -73,7 +76,7 @@ print(x==y)
 print(x!=y)
 """
 """
-# RELATIONAL OPERATORS( >, <, >=, <= )
+#(3)RELATIONAL OPERATORS( >, <, >=, <= )
 
 x = 30
 y = 60
@@ -84,8 +87,7 @@ print(x>=y)
 print(x<=y)
 """
 """
-
-# MEMBERSHIP OPERATORS ( IN, NOT IN )
+#(4)MEMBERSHIP OPERATORS ( IN, NOT IN )
 
 INDIA = "DHONI,VIRAT,ROHIT"
 
@@ -94,19 +96,20 @@ print("BABAR AZAM" not in INDIA)
 print("BABAR AZAM" is INDIA)
 """
 """
-#IDENTIFY OPERATORS ( IS , IS NOT )
+#(5)IDENTIFY OPERATORS ( IS , IS NOT )
 
-DHONI = 7
-VIRAT = 18
+DHONI = 10
+VIRAT = 20
 
 print(id(DHONI))#1321257992624
 print(id(VIRAT))#2706716427024
 
+
 print(DHONI is VIRAT)
 print(DHONI is not VIRAT)
 """
-
-#INCREMENTAL OPERATORS( +=, -=, *=, /= )
+"""
+#(6)INCREMENTAL OPERATORS( +=, -=, *=, /= )
 
 x = "pra"
 
@@ -126,9 +129,10 @@ z = z*10
 print(z)
 
 h = 1
-h = 1/2
+h = h/2
 
 print(h)
+"""
 
 
 
