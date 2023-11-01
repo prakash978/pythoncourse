@@ -42,7 +42,7 @@ print(xx.lokesh())"""
 
 #INITIALIZER
 
-class Pspk:
+"""class Pspk:
     def __init__(self,title,title2):
         self.title = title
         self.title2 = title2
@@ -61,6 +61,22 @@ class Pawan:
         return self.title+self.title2+arg
 
 xx = Pawan("bhagat","singh")
-print(xx.function("singh"))
+print(xx.function("singh"))"""
+
+class Lcu:
+    x = 50
+    def function(self,arg):
+        return Lcu.x+arg
+
+
+    def __del__(self):
+        print("object is no more")
+
+ss = Lcu()
+print(ss.function(50))
+del ss
+print(ss.function(40))
+
+
 
 
